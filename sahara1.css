@@ -1,0 +1,123 @@
+body{
+        width: 100%;
+        height: 100%;
+        background-image: url("one-person-walking-solitude-exploring-nature-generated-by-ai.jpg");
+        background-size: cover;
+        
+        background-repeat: no-repeat;
+   
+}
+
+
+    
+
+
+
+.soso{
+    height: 12%;
+    display: flex;
+    align-items: right;
+}
+.logo{
+    width: 100px;
+    
+}
+
+
+nav{
+   flex: 1;
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 100px;
+    color: brown;
+    
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col-sm{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    font-size: 15px;
+    
+}
+button{
+    width: 180px;
+    color: white;
+    font-size: 12px;
+    padding: 12px 0;
+    background: brown;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    
+   
+    
+    
+    
+}
+
+
+h3{
+    color: brown;
+    text-shadow: 0 0 15px #999;
+}
+.card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 10px;
+}
+#card1{
+    background-image: url("Capture d’écran 2024-01-04 221814.png");
+}
+#card2{
+    background-image: url("téléchargement - Copie (2).jpeg");
+}
+#card3{
+    background-image: url("téléchargement (1) - Copie.jpeg");
+}
+#card4{
+    background-image: url("touareg-061.jpg");
+}
+button:hover{
+    background-color: beige;
+    color: black;
+    font-size: 20px;
+    border: 0;
+    border-radius: 30px;
+}
+.card{
+    
+    transition: trasform 1.5s;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
